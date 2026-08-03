@@ -57,7 +57,7 @@ class Cushion extends Body {
             context.quadraticCurveTo(p0.x, p0.y, 0.5 * (p0.x + p1.x), 0.5 * (p0.y + p1.y))
         }
 
-        context.fillStyle = color || '#00B0FF'
+        context.fillStyle = color || '#000000'
         context.fill()
     }
 
@@ -68,7 +68,7 @@ class Cushion extends Body {
             context.lineTo(p.x, p.y)
         }
 
-        context.fillStyle = color || '#00B0FF'
+        context.fillStyle = color || '#000000'
         context.fill()
     }
 }
