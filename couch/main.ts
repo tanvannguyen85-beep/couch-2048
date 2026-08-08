@@ -1,6 +1,6 @@
 /// <reference path="couch.d.ts" />
 
-const kGravity = 0.6
+const kGravity = 0.0
 const kAttractiveForce = 0.1
 const kNumIterations = 40
 const kFriction = 0.9
@@ -27,7 +27,7 @@ function mainloop() {
         p.integrate()
     }
 
-    let addPieces = false
+    let addPieces = True
 
     for (let i = 3 /*numberOfCushions*/; i < bodies.length; ++i) {
         const b = bodies[i] as Piece
