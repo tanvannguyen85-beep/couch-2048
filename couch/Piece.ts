@@ -4,7 +4,9 @@ let FILL_COLOR: { [n: number]: string } = {}
 ~[
     'eee4da', 'ede0c8', 'f2b179', 'f59563',
     'f67c5f', 'f65e3b', 'edcf72', 'edcc61',
-    'edc850', 'edc53f', 'edc22e'
+    'edc850', 'edc53f', 'edc22e', 'a066da',
+    '8842c2', '6b21a8', '581c87', '9333ea'
+    '
 ].forEach(function (color, index) {
     FILL_COLOR[Math.pow(2, index + 1)] = '#' + color
 })
