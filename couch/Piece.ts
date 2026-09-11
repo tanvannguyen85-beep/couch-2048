@@ -23,7 +23,7 @@ class Piece extends Body {
 
         ++count[this.n = n]
         this.r = 40 + 4 * (Math.log2(n) - 1)
-        this.font = `bold ${0.1 * this.r + 28}px 'Segoe UI','Helvetica Neue',sans-serif`
+        this.font = `bold ${0.1 * this.r + 28}px 'SF Pro','Helvetica Neue',sans-serif`
 
         const nPoints = numberOfPoints(this.r)
         const aStep = 2 * Math.PI / nPoints
